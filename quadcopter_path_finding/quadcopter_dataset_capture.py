@@ -86,7 +86,7 @@ try:
         time.sleep(0.01)
 
 except Exception as e:
-    print(f"❌ Error: {e}")
+    print(f"Error: {e}")
 
 cv2.destroyAllWindows()
 sim.stopSimulation()
