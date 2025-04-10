@@ -17,8 +17,10 @@ sim.startSimulation()
 
 quadcopter_target = sim.getObject('/target')
 camera = sim.getObject('/Quadcopter/visionSensor')
+
 position = sim.getObjectPosition(quadcopter_target, -1)
 x, y, z = position
+
 delta = 0.1 
 
 forward_dir = "C:/Users/ASUS/Documents/Code/CoppeliaSims_py/quadcopter_path_finding/train_data/forward"
