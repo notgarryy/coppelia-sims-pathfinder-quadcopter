@@ -6,6 +6,8 @@ This project aims to develop and simulate a **pathfinding quadcopter** using the
 
 This project leverages the **CoppeliaSim Remote API**, and much of the foundational Python integration with CoppeliaSim is based on the work by [JosephLahiru](https://github.com/JosephLahiru/coppeliasim-python). 
 
+This project is developed in collaboration with [teguh43ananda](https://github.com/teguh43ananda).
+
 ## Key Features:
 - **Quadcopter Simulation**: Simulated in CoppeliaSim using custom models and paths.
 - **Pathfinding Algorithm**: A quadcopter pathfinding system for obstacle avoidance.
